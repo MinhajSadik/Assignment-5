@@ -1,3 +1,19 @@
 body{
     background-color:goldenrod;
 }
+#foodItem{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.foodList{
+    border:1px solid white;
+    border-radius: 20px;
+    padding:20px;
+    text-align: center;
+    width:300px;
+}
+.itemMeal{
+    font-size: 45px;
+    color:balck;
+}
