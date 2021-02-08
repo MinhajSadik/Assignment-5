@@ -1,5 +1,6 @@
 const searchFood = () => {
     const foodText = document.getElementById('foodMeal').value;
+    console.log(foodText);
     const url = `https://www.themealdb.com/api/json/v1/1/search.php?s${foodText}`
     
     fetch(url)
