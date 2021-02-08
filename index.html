@@ -9,11 +9,12 @@
 </head>
 <body>
     <div>
+        <h1 class="text-center">Recipe Item</h1>
         <form class="col-md-6 m-auto py-5">
                 <div class="input-group mb-3">
                     <input id="foodMeal" type="text" class="form-control" placeholder="Enter Your Hungry Product Name...">
-                    <div class="input-group-append">
-                    <button onclick="searchFood(`${strMeal}`)" class="btn btn-danger">Search</button>
+                <div class="input-group-append">
+                    <button onclick="searchFood()" class="btn btn-danger">Search</button>
                 </div>
             </div>
         </form>
@@ -26,7 +27,7 @@
     <div id="recipes">
 
     </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
