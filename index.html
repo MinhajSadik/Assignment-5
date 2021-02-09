@@ -1,33 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">    <link rel="stylesheet" href="style.css">
-    <title>Assignment-5</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment Five</title>
 </head>
 <body>
-    <div>
-        <h1 class="text-center">Recipe Item</h1>
-        <form class="col-md-6 m-auto py-5">
-                <div class="input-group mb-3">
-                    <input id="foodMeal" type="text" class="form-control" placeholder="Enter Your Hungry Product Name...">
-                <div class="input-group-append">
-                    <button onclick="searchFood()" class="btn btn-danger">Search</button>
+    <div class="container">
+        <main class="content-area">
+
+            <div class="search-bar col-md-6 mx-auto">
+                <h1 class="text-center">Here is Your Recipes</h1>
+                <div class="search-box my-5">
+
+                    <input id="search-field" type="text" class="form-control" placeholder="Enter your Hungry Product">
+                    <button onclick="searchFood()" class="search-box search-btn btn btn-success">Search</button>
+
                 </div>
+                    <div id="food-container" class="search-result col-md-8 mx-auto py-4">
+                        <div class="single-result row align-items-center my-3 p-3"> Here is Your Search Recipes Result
+                            <div class="col-md-3 text-md-right text-center"></div>
+                        </div>
+                    </div>
             </div>
-        </form>
+            <div id="recipe-info">
+            
+            </div>
+
+            <div id="recipes" class="search-result container2">
+                
+            </div>
+
+        </main>
     </div>
-    <h3 id="error-message" class="text-danger"></h3>
-    <div id="recipeInfo">
-
-    </div>
-
-    <div id="recipes">
-
-    </div>
-
     <script src="script.js"></script>
 </body>
 </html>
