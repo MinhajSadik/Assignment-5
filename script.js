@@ -9,6 +9,7 @@ const searchFood = () => {
         
 }
 
+
 const displayFood = names => {
     const recipes = document.getElementById('recipes');
     recipes.innerHTML = '';
