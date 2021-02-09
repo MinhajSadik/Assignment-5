@@ -16,11 +16,11 @@ const displayFood = names => {
         const recipesDiv = document.createElement('div');
         recipesDiv.className = 'search-result container2';
         recipesDiv.innerHTML = `
-        <h3 class="lyrics-name">${name.strMeal}</h3>
+        <h3 class="mealName">${name.strMeal}</h3>
         <div class="item">
             <img src="${name.strMealThumb}" alt="images">
         </div>
-        <div class="flex-container">
+        <div class="container">
                 <h1 class="title"> ${name.strMeal}</h1>
         </div>
         `;
