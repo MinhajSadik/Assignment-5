@@ -17,7 +17,7 @@ const displayFood = names => {
         const recipesDiv = document.createElement('div');
         recipesDiv.className = 'search-result container2';
         recipesDiv.innerHTML = `
-        <h3 class="mealName">${name.strMeal}</h3>
+        <h3 class="mealDetails">${name.strMeal}</h3>
         <div class="item">
             <img src="${name.strMealThumb}" alt="images">
         </div>
